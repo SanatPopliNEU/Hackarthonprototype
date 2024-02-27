@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Summary</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content-container">
+        <h1>Mental Health: An Overview</h1>
+        <p>
+            Depression (major depressive disorder) is a common and serious
+            medical illness that negatively affects how you feel, the way 
+            you think and how you act. Fortunately, it is also treatable. 
+            Depression causes feelings of sadness and/or a loss of interest 
+            in activities you once enjoyed. It can lead to a variety of emotional
+            and physical problems and can decrease your ability to function at work 
+            and at home.
+
+
+        </p>
+        <button id="checkMentalHealth">Check Mental Health</button>
+    </div>
+
+    <script>
+        document.getElementById('checkMentalHealth').addEventListener('click', function() {
+            // Here you will need to integrate with your backend to call the ML algorithm.
+            // For example, you could make an AJAX request to a server endpoint that runs the ML model.
+            alert('This will trigger the ML algorithm.');
+        });
+    </script>
+</body>
+</html>
